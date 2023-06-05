@@ -14,25 +14,25 @@ services:
 
     envVars:
     - key: API_ID
-        sync: false
+        sync: true
     - key: API_HASH
-        sync: false
+        sync: true
     - key: BOT_TOKEN
-        sync: false
+        sync: true
     - key: ADMINS
-       sync: false
-    - key: DATABASE_URI 
-       sync: false
+        sync: false
+    - key: DATABASE_URl
+        sync: true
     - key: PICS
-       sync: false
+        sync: false
     - key: CHANNEL
-       sync: false
+        sync: true
     - key: LOG_CHANNEL
-       sync: false
+        sync: true
     - key : COLLECTION_NAME
-       sync : false
+        sync : false
     - key : DATABASE_NAME
-       sync : false
+        sync : false
        
        
         
